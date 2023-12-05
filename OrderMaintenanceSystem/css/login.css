@@ -1,0 +1,39 @@
+body{
+    background-image: url('background.png');
+    background-size: cover;
+}
+
+#loginform{
+    height:500px;
+    width:500px;
+    background-color:rgb(43, 67, 67);
+    margin-top:100px;
+    border-radius: 50px;
+}
+
+#booklogo{
+    margin-top:50px;
+}
+
+.logindetails{
+    height:50px;
+    width:250px;
+    outline-color:white;
+    color:white;
+    border-width:5px;
+    background-color:rgb(43, 67, 67);
+    border-radius: 200px;
+}
+
+.loginbutton{
+    height:40px;
+    width:150px;
+    background-color: blue;
+    border-radius: 400px;
+}
+
+
+
+table{
+    border:1px solid black;
+}

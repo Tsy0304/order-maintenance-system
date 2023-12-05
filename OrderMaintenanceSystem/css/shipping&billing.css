@@ -1,0 +1,56 @@
+.div-container {
+    margin-bottom: 10px;
+}
+.left-div {
+    border-radius: 5px;
+    border: darkslategray 2px solid;
+    margin: 10px;
+    padding: 10px 30px 30px 30px;
+}
+.right-div {
+    border-radius: 5px;
+    border: darkslategray 2px solid;
+    margin: 10px;
+    padding: 10px 30px 30px 30px;
+}
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+input[type=date], input[type=text], input[type=number], select {
+    padding: 4px;
+    margin: 2px;
+    height: 25px;
+    width: 350px;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: #EEEEEE;
+    padding-left: 15px;
+    font-family: Bahnschrift;
+    font-size: 15px
+}
+select {
+    width: 150px;
+}
+input[type=date] {
+    width: 150px;
+}
+.form-control small {
+    position: absolute;
+    transform: translate(3px, 2px);
+    padding: 8px;
+    background-color: #cc0000;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+.form-control.error small {
+    color: white; 
+    visibility: visible;
+}
+.form {
+    margin:100px 100px auto 100px;
+}
+.form-control small {
+    visibility: hidden;
+}

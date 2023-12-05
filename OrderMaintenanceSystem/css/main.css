@@ -1,0 +1,164 @@
+html * {
+    font-size: 16px;
+    line-height: 1.625;
+    color: black;
+    font-family: Helvetica, sans-serif;}
+
+.topbar{
+        background-color: rgba(4, 111, 26, 0.753);
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        align-items: center;
+        padding: 1vh;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+}
+
+.topbar input[type=text]{
+    border:1px solid white;
+}
+
+.topbar a{
+  text-decoration: none;
+}
+
+.banner{
+  width:100%;
+  height:300px;
+}
+
+.logo-image{
+        height: 100px;
+        display: block;
+        margin-left: -2vw;
+}
+
+.searchbar{
+  width:300px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    text-decoration: none;
+
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  
+
+  .paragraphtext{
+    background-color: rgba(211, 211, 211, 0.658);
+    color: black;
+    border-radius: 5px;
+    width: 75vh;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+.cartfooter {
+  position:static;
+  margin-top: 1000px;
+  bottom:0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  clear: "both";
+  
+} 
+
+.basicfooter {
+  position:static;
+  margin-top: 150px;
+  margin-left:-50px;
+  bottom:0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  clear: "both";
+  
+} 
+
+
+
+.aboutheading{
+  text-align: center;
+  background-color: green;
+  color: black;
+  font-weight: bolder ;
+  border-radius: 5px;
+  width: 200px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+
+}
+
+.container{
+background-color: rgba(211, 211, 211, 0.658);
+width: 1500px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20px;
+text-align: center;
+
+}
+
+.row { display: flex;
+text-align: center;
+margin-inline: 10%;
+flex-wrap: wrap;
+margin-top: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.column {
+flex: 20%;
+padding: 10px;
+}
+
+.column img{
+max-width: 150px;
+max-height: 250px;
+
+}   
+
+.GoCart {
+background-color: #ffffff;
+border: #d00000 1px solid;
+padding: 5px 10px;
+color: #d00000;
+float: right;
+width: 200px;
+border-radius: 3px;
+margin: 10px 0px;
+text-align:center;
+margin-left:450px;
+}
+
+.GoCart a{
+font-style: normal;
+text-decoration: none;
+color: black;
+}

@@ -1,0 +1,326 @@
+/* website template */
+body {
+    padding-top: 80px;
+    background-repeat: repeat-y;
+    background-image: url("../image/template-image/main-background.png");
+    overflow-x: hidden; 
+    margin: 0; 
+    font-family: Bahnschrift;
+    overflow-y: scroll; 
+    scroll-behavior: smooth;
+}
+.nav-bar {
+    position: fixed;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #FAFAFA;
+    overflow: hidden;
+    z-index: 3;
+}
+.nav-box {
+    height: 60px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-text{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    line-height: 64px;
+    float: left;
+}
+.my-cart {
+    float: right;
+    padding-top: 16.5px;
+    width: 45.5px;
+    height: 26px;
+}
+.nav-logo {
+    float: left;
+    padding-top: 16.5px;
+    width: 45.5px;
+    height: 26px;
+}
+.nav-list {
+    float: right;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    width: 84px;
+    line-height: 59px; 
+    white-space: nowrap; 
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.nav-contact {
+    color: white;
+    background-color: rgb(101, 101, 236);
+    height: 60px;
+    width: 125px;
+    vertical-align: center;
+    margin-left: 10px;
+    z-index: 2;
+}
+a.nav-contact:hover {
+    color: white;
+    background-color: rgb(101, 101, 236);
+}
+footer {
+    position: relative;
+    width: 100%;
+    background-color: rgb(101, 101, 236);
+    height: 243.5px;
+}
+.footer-content {
+    position: relative;
+    width: 395px;
+    background-color: rgb(101, 101, 236);
+    height: 160px;
+    margin: auto;
+    padding-top: 41.5px;
+}
+.footer-content p {
+    font-size: 17px;
+    color: white;
+    margin-left: 225px;
+    margin-top: 26px;
+}
+.footer-content span {
+    position: absolute;
+    font-size: 17px;
+    color: white;
+    margin-left: 53px;
+    bottom: 0;    
+}
+.bottom-logo {
+    position: absolute;
+    width: 65.5px;
+    height: 65.5px;
+    transform: translate(0, -85px) 
+}
+.bottom-line {
+    background-color: white;
+    height: 118px;
+    width: 2px;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.bottom-icon1 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 31%;
+    left: 46.7%;
+    margin-right: -50%;
+}
+.bottom-icon2 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 53%;
+    left: 46.7%;
+    margin-right: -50%;
+}
+.div-on {
+    display: block;
+}
+.div-off {
+    display: none;
+}
+
+/* css for cart, checkout and purchase summary page */
+.background {
+    height: 705px;
+    width: 1100px;
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.5);
+    margin: 20px auto 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 45px;
+}
+.background h1{
+    margin: 0 auto 50px 50px;
+}
+.cart-container{
+    margin: 100px;
+    width: 900px;
+    height: 325px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    text-align:left;
+}
+table{
+    width: 100%; 
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+.item{
+    display: flex; 
+    flex-wrap: wrap;
+}
+.cart-table tr{
+    background-color: #F5F5F5;
+}
+.table-title{
+    margin: 100px auto 0 auto;
+    height: 40px;
+    width: 770px;
+    background-color: rgb(101, 101, 236);
+    border-radius: 10px;
+    line-height: 40px;
+    padding-left: 130px;
+    color: white;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px; 
+    padding: 5px;
+}
+td a{
+    color: rgb(101, 101, 236);
+    font-size: 12px;
+}
+td img{
+    width: 80px; 
+    height: 80px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.minus-button, .plus-button {
+    background: transparent;
+    color:rgb(101, 101, 236);
+    cursor: pointer;
+    font-weight: 900; 
+    font-size: 1.2rem; 
+    padding: 0 6px; 
+    border: none; 
+}
+.minus-button:active , .plus-button:active {
+    color: #96c8cc;
+}
+.next-button {
+    background-color: rgb(204, 0, 0);
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    transform: translate(725px, 40px);
+    font-family: Bahnschrift;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.previous-button {
+    background-color: rgb(204, 0, 0);
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    transform: translate(100px, 40px);
+    font-family: Bahnschrift;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.next-button:hover, .previous-button:hover  {
+    background-color: red;
+}
+input[type=checkbox]{
+    height: 20px;
+    text-align: center; 
+    vertical-align: middle;
+}
+p a{
+    color: rgb(101, 101, 236);
+    font-size: 12px;
+    padding-left: 10px;
+}
+td:last-child{
+    text-align: right;
+}
+.progress-bar-container{
+    width: 90%;
+    margin-left: 30px;
+}
+.progress-bar{
+    counter-reset: step;
+}
+.progress-bar li {
+    list-style-type: none;
+    float: left;
+    width: 25%;
+    position: relative;
+    text-align: center;
+}
+.progress-bar li:before{
+    content: counter(step);
+    counter-increment: step;
+    width: 30px; 
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: #bebebe; 
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.progress-bar li:after{
+    content: '';
+    position: absolute; 
+    width: 100%;
+    height: 2px; 
+    background-color: #bebebe; 
+    top: 15px;
+    left: -50%;
+}
+.progress-bar li:first-child:after{
+    content: none;
+}
+.progress-bar li.active, li.previous{
+    background-color: rgb(101, 101, 236);;
+}
+.progress-bar li.active:before, li.previous:before{
+    background-color: rgb(101, 101, 236);
+}
+.progress-bar li.previous + li:after{
+    background-color: rgb(101, 101, 236);
+}
+#style-1::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+.order-summary-details {
+    margin: auto auto 20px 20px;
+}
+

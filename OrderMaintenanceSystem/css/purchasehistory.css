@@ -1,0 +1,154 @@
+.ordercontainer { display:flex ; 
+    height: 750px;
+    width: 1700px; 
+    margin: auto;
+    flex-direction: column;
+    background-color:  #FAFAFA;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+
+.cart-container{
+    width: 1600px;
+    height: 700px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    margin-left:50px;
+}
+
+.invoice-container{
+    margin: 0 auto;
+    width: 900px;
+    height: 700px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.next-button {
+    background-color: rgb(204, 0, 0);
+    border: none;
+    color: white;
+    width: 200px;
+    padding: 13px 30px;
+    transform: translate(-25px);
+    font-family: Bahnschrift;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.next-button:hover {
+    background-color:rgb(146, 0, 0);
+}
+#style-1::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+.titlebox{ 
+    width:300px;
+    height: 75px; 
+    justify-content: center; 
+    text-indent: 50px; 
+    padding-bottom: 10px;
+}
+        
+.title{
+    font-size: 30px;
+    font-weight:500;
+    color: black;
+}
+.table-title{
+    margin: 20px auto 0 auto;
+    height: 40px;
+    width: 690px;
+    background-color: #008cb6;
+    border-radius: 10px;
+    line-height: 40px;
+    padding-left: 210px;
+    color: white;
+
+}    
+
+.order-title{
+    height: 40px;
+    background-color: #008cb6;
+    border-radius: 10px;
+    line-height: 40px;
+    color: white;
+}
+  
+.invoice{
+    text-decoration: none;
+    background-color: #008cb6;
+    border-radius: 10px;
+    line-height: 40px;
+    color: white;
+    width: fit-content;
+} 
+
+.invoice a{
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    }
+  
+.buttonbox { 
+    height: 100px;
+    width: auto;
+    align-self: flex-end;
+    padding-right: 75px;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 25px;}
+
+.buttonStyle{
+    background-color: #c2272d;
+    width: 210px;
+    height: 47px;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+    padding:0;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 2px;}
+
+    
+img{ 
+    display:inline-block;
+    height:100px; 
+    width: 100px;
+    border-radius: 5px;
+}
+table{ 
+    table-layout:fixed;
+    width:100%;}        
+
+td{
+    font-size: 15px; 
+    text-align: center;  
+    }
+
+.nothing-inside {
+    font-size: 18px;
+    padding-top: 200px;
+    text-align: center;
+}
